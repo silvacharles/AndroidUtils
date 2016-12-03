@@ -1,22 +1,20 @@
-/*
- * *
- *  *     / )|                                   |( \
- *  *    / / |         Charles Silva             | \ \
- *  *  _( (_ |  _  [www.charlessilva.com.br]  _  | _) )_
- *  * (((\ \)|_/ )___________________________( \_|(/ /)))
- *  * (\\\\ \_/ /                             \ \_/ ////)
- *  *  \       /                               \       /
- *  *   \    _/                                 \_    /
- *  *   /   /                                     \   \
- *  * Autor   : Charles Silva (suporte@charlessilva.com.br)
- *  * Linguagem : Java (SDK Android) IDE: Android Studio
- *  * URL: www.charlessilva.com.br
- *  * twitter: http://twitter.com/charlessilva_
- *  * GitHub: https://github.com/silvacharles
- *
- */
+package br.com.charlessilva.androidutils;
 
-package br.com.charlessilva.androidutils.utils;
+/**
+ *     / )|                                   |( \
+ *    / / |         Charles Silva             | \ \
+ *  _( (_ |  _  [www.charlessilva.com.br]  _  | _) )_
+ * (((\ \)|_/ )___________________________( \_|(/ /)))
+ * (\\\\ \_/ /                             \ \_/ ////)
+ *  \       /                               \       /
+ *   \    _/                                 \_    /
+ *   /   /                                     \   \
+ * Autor   : Charles Silva (suporte@charlessilva.com.br)
+ * Linguagem : Java (SDK Android) IDE: Android Studio
+ * URL: www.charlessilva.com.br
+ * twitter: http://twitter.com/charlessilva_
+ * GitHub: https://github.com/silvacharles
+ */
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -24,7 +22,7 @@ import android.os.Environment;
 import android.util.Log;
 
 /**
- * Created by Charles on 03/12/2016.
+ * Created by Charles on 01/12/2016.
  */
 
 public class Utils {
@@ -78,4 +76,3 @@ public class Utils {
         return false;
     }
 }
-
