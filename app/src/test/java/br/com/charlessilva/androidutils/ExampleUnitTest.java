@@ -1,4 +1,4 @@
-package br.com.charlessilva.biblioteca;
+package br.com.charlessilva.androidutils;
 
 import org.junit.Test;
 
