@@ -37,5 +37,5 @@ dependencies {
 //apply from: 'gradle-deploy-local.gradle'
 
 // Maven Central
-//apply from: 'gradle-mvn-push.gradle'
-//task install(dependsOn: uploadArchives)
+apply from: 'gradle-mvn-push.gradle'
+task install(dependsOn: uploadArchives)
