@@ -40,4 +40,4 @@ Charles Silva
 
 
 ## Licença de uso Apache 2.0
-See [LICENSE](LICENSE)
+Veja [LICENSE](LICENSE)
