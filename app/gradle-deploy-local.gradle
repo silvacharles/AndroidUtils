@@ -6,7 +6,7 @@ uploadArchives {
         mavenDeployer {
             println "Deploy para o repositório local..."
 
-            repository(url: "file:///c:/GitHub/AndroidUtils/biblioteca")
+            repository(url: "file:///home/charles/Projetos/GitHub/AndroidUtils/biblioteca")
 
             pom.groupId = GROUP
             pom.artifactId = POM_ARTIFACT_ID
@@ -42,7 +42,7 @@ artifacts {
 No projeto:
 repositories {
     maven {
-        url "file:///c:/GitHub/AndroidUtils/biblioteca"
+        url "file:///home/charles/Projetos/GitHub/AndroidUtils/biblioteca"
     }
 }
  */
