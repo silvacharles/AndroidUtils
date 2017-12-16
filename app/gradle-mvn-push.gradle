@@ -1,6 +1,8 @@
 /*
  * Copyright 2013 Chris Banes
  *
+ * https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -80,14 +82,14 @@ afterEvaluate { project ->
                         developer {
                             id POM_DEVELOPER_ID
                             name POM_DEVELOPER_NAME
-                            email POM_DEVELOPER_EMAIL
-                            organization POM_DEVELOPER_ORGANIZATION
                         }
                     }
                 }
             }
         }
     }
+
+    task install(dependsOn: uploadArchives)
 
     signing {
         required { isReleaseBuild() && gradle.taskGraph.hasTask("uploadArchives") }
@@ -111,6 +113,6 @@ afterEvaluate { project ->
 
     artifacts {
         archives androidSourcesJar
-        archives androidJavadocsJar
+        //archives androidJavadocsJar
     }
 }
